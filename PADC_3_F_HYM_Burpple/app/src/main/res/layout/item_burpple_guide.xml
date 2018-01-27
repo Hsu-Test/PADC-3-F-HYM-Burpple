@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="16dp">
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:id="@+id/iv_burpple_guide_bg"
+        android:src="@drawable/iv_burpple_guide_bg"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/iv_food_logo"
+        android:src="@drawable/iv_food_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_food_type"
+        android:text="BBQ &amp; GRILLS"
+        android:layout_below="@id/iv_food_logo"
+        style="@style/white_text_black_border"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/heading_text_size"
+        android:layout_marginLeft="@dimen/main_content_margin"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/iv_burpple_logo"
+        android:src="@drawable/iv_burpple_logo"
+        android:layout_below="@id/tv_food_type"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_burpple"
+        android:text="burpple"
+        android:layout_toRightOf="@id/iv_burpple_logo"
+        android:layout_below="@id/tv_food_type"
+        android:layout_marginTop="20dp"
+        style="@style/white_text_black_border"
+        android:textSize="@dimen/sub_heading_text_size"
+        />
+</RelativeLayout>

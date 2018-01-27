@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PADC-3-F-HYM-Burpple-Food-Places</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_to_register">Register ပြုလုပ်ရန်</string>
+    <string name="lbl_to_login">Login ၀င်ရန်</string>
+    <string name="lbl_to_logout">Logout</string>
+
+</resources>

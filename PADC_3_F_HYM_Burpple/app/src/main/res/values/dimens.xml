@@ -1,0 +1,60 @@
+<resources>
+    <!-- Generic with ratio -->
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_medium_2">16dp</dimen>
+    <dimen name="margin_medium_3">20dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_xxlarge">48dp</dimen>
+
+    <dimen name="margin_card_medium">6dp</dimen>
+    <dimen name="margin_card_medium_2">12dp</dimen>
+
+    <dimen name="margin_small_n">-4dp</dimen>
+    <dimen name="margin_card_medium_n">-6dp</dimen>
+    <dimen name="margin_medium_n">-8dp</dimen>
+    <dimen name="margin_card_medium_2_n">-12dp</dimen>
+    <dimen name="margin_medium_2_n">-16dp</dimen>
+    <dimen name="margin_medium_3_n">-18dp</dimen>
+    <dimen name="margin_large_n">-24dp</dimen>
+    <dimen name="margin_xlarge_n">-32dp</dimen>
+
+    <dimen name="text_smaller">10sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_regular">14sp</dimen>
+    <dimen name="text_regular_2x">16sp</dimen>
+    <dimen name="text_regular_3x">20sp</dimen>
+    <dimen name="text_heading_1x">24sp</dimen>
+    <dimen name="text_heading_2x">32sp</dimen>
+    <dimen name="text_big">40sp</dimen>
+    <dimen name="text_big_2x">60sp</dimen>
+    <dimen name="text_big_3x">80sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!--specific -->
+    <dimen name="iv_dummy_food_background_height">320dp</dimen>
+    <dimen name="et_search_margin_top">16dp</dimen>
+    <dimen name="et_search_padding">8dp</dimen>
+    <dimen name="heading_text_size">24sp</dimen>
+    <dimen name="normal_text_size">14sp</dimen>
+    <dimen name="main_content_margin">16dp</dimen>
+    <dimen name="rl_margin_top">48dp</dimen>
+    <dimen name="rv_margin_top">16dp</dimen>
+    <dimen name="tv_burpple_exclusive_margin_left">16dp</dimen>
+    <dimen name="tv_burpple_exclusive_margin_right">16dp</dimen>
+    <dimen name="tv_burpple_exclusive_margin_top">64dp</dimen>
+
+    <dimen name="sub_heading_text_size">16sp</dimen>
+    <dimen name="iv_dummy_logo_exploration_margin_top">16dp</dimen>
+    <dimen name="tv_dummy_name_exploration_margin_top">20dp</dimen>
+    <dimen name="tv_dummy_name_exploration_margin_left">4dp</dimen>
+
+
+    <dimen name="dummy_user_proifile">90dp</dimen>
+    <dimen name="user_account_control_view_pod_height">220dp</dimen>
+    <dimen name="regular_user_profile">90dp</dimen>
+    <dimen name="user_profile_view_pod_height">220dp</dimen>
+
+</resources>

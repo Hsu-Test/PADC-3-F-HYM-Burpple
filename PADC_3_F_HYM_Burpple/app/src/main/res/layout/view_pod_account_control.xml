@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xyz.hsuyeemon.burpple.viewpods.AccountControlViewPod
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/user_account_control_view_pod_height">
+
+    <include layout="@layout/view_pod_before_login"
+        android:id="@+id/vp_before_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include layout="@layout/view_pod_login_user"
+        android:id="@+id/vp_login_user"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</xyz.hsuyeemon.burpple.viewpods.AccountControlViewPod>

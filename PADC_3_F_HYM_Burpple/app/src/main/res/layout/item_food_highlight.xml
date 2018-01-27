@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xyz.hsuyeemon.burpple.viewitems.FoodHighlightViewItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/iv_dummy_food_background_height">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/iv_dummy_food_background_height"
+            android:id="@+id/iv_dummy_food_background"
+            android:src="@drawable/iv_dummy_food_background"
+            android:fitsSystemWindows="true"
+            android:scaleType="centerCrop"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_features"
+        android:text="FEATURES"
+        android:layout_centerInParent="true"
+        android:padding="4dp"
+        android:textSize="@dimen/normal_text_size"
+        android:background="@drawable/border"
+        android:textColor="@color/border_green"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_highlight_title"
+        android:text="A Tasty Walk In A Park"
+        android:layout_below="@id/tv_features"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        style="@style/white_text_black_border"
+        android:textSize="@dimen/sub_heading_text_size"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_describe_location"
+        android:text="Savourworld puts 20 restaurants together on the science park map"
+        android:layout_below="@id/tv_highlight_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        style="@style/white_text_black_border"
+        android:textSize="@dimen/normal_text_size"
+        />
+</xyz.hsuyeemon.burpple.viewitems.FoodHighlightViewItem>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp">
+
+    <ImageView
+        android:id="@+id/iv_dummy_food"
+        android:layout_width="200dp"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/iv_dummy_food_background" />
+
+    <TextView
+        android:id="@+id/tv_burpple_exclusive"
+        style="@style/white_text_black_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_express_promotion"
+        android:layout_marginTop="@dimen/tv_burpple_exclusive_margin_top"
+        android:padding="4dp"
+        android:background="@color/yellow"
+        android:text="BURPPLE EXCLUSIVE" />
+
+    <TextView
+        android:id="@+id/tv_express_promotion"
+        style="@style/white_text_black_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_burpple_exclusive"
+        android:layout_marginLeft="@dimen/tv_burpple_exclusive_margin_left"
+        android:layout_marginRight="@dimen/tv_burpple_exclusive_margin_right"
+        android:text="20% Off Total Bill"
+        android:textSize="@dimen/heading_text_size" />
+
+    <View
+        android:id="@+id/v_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@id/tv_burpple_exclusive"
+        android:layout_below="@id/tv_express_promotion"
+        android:layout_marginTop="8dp"
+        android:background="#AAA" />
+
+    <TextView
+        android:id="@+id/tv_due_date"
+        style="@style/white_text_black_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_alignStart="@+id/tv_express_promotion"
+        android:layout_below="@+id/tv_express_promotion"
+        android:text="TILL 31ST JAN '18" />
+
+    <TextView
+        android:id="@+id/tv_description_shop"
+        style="@style/white_text_black_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_dummy_food"
+        android:background="@color/yellow"
+        android:paddingLeft="@dimen/tv_burpple_exclusive_margin_left"
+        android:paddingTop="4dp"
+        android:text="WildFire Chicken &amp; ..." />
+
+    <TextView
+        android:id="@+id/tv_description_place"
+        style="@style/white_text_black_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_description_shop"
+        android:background="@color/yellow"
+        android:paddingLeft="@dimen/tv_burpple_exclusive_margin_left"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="City Hall" />
+
+</RelativeLayout>
